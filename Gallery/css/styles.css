@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid {
+    width: 650px;
+    height: 500px;
+    margin: 150px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img {
+    width: 200px;
+    margin: 3px;
+}
+
+.grid__img {
+    height: 133px;
+    overflow: hidden;
+}
